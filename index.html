@@ -1,0 +1,21 @@
+
+<!-- Edit seating preference -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        if (window.location.href.search('customer') != -1) {
+            
+            // cambio de opcion "cualquiera" por campo vacío
+            var areaSelect = document.getElementById("la_fourchette_customer_reservation_form_areaType");
+            areaSelect[0].innerHTML = '<option value=""></option>';
+            var tableSelect = document.getElementById("la_fourchette_customer_reservation_form_tableType");
+            tableSelect[0].innerHTML = '<option value=""></option>';
+
+
+            // Cambio de palabras en la preferencia de asiento > zona (comprobar la ID)
+
+        }
+    });      
+</script>
+<!-- / Edit seating preference -->
+
+
